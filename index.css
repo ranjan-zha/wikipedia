@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background-color:#fff;
+}
+header h1{
+  font-family: 'Estonia', cursive;
+  text-align: center;
+  font-size: 65px;
+}
+.container{
+  
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 27%;
+  border: 2px solid rgb(139, 136, 136);
+}
+a{
+  text-decoration: none;
+  color: #333;
+  margin-left: 40%;
+  padding-bottom: 30px;
+  color: #000;
+  padding-left: 60px;
+  padding-right: 60px;
+ margin-top: 30px;
+}
+a:hover{
+  color: rgb(45, 58, 240);
+}
+p{
+  width: 650px;
+  height: 700px;
+  font-family: 'Goudy Bookletter 1911', serif;
+  color: #333;
+  font-size: 16px;
+  
+}
+p::first-letter{
+  font-size: 300%;
+  color: #000;
+}
+
+.phead{
+  text-align: center;
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+.container{
+  padding: 50px;
+  margin-left: 22%;
+  color: #333;
+}
+.end{
+  text-align: center;
+}
+
+/* button{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 40%;
+  color: #000;
+
+} */
+button:hover{
+  cursor: pointer;
+}
